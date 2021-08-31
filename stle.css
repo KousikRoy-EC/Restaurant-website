@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+
+
+.jumbotron{
+   background-color: #a590ca;
+   color: white;
+   margin-top: 25px;
+  
+}
+.row-header{
+    height: 250px;
+}
+
+.solo{
+margin-left: 25px;
+}
+
+.footer{
+    color: black;
+}
+
+.mt{
+    margin-top: 50px;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+
+.Date{
+    margin-top: -6px;
+}
+
+.modal-lg{
+    width: 540px;
+}
+
+.login{
+    right: 30px;
+    position: absolute;
+  
+    
+}
+
+

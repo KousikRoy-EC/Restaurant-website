@@ -1,0 +1,13 @@
+$back : #673dac;
+$header : darkblue;
+$wh : white;
+.modal-body{
+    background-color: $back;
+}
+
+.modal-header{
+    background-color: $back;
+    .close:hover{
+     color:$wh;
+    }
+}

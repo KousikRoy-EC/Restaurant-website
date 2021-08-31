@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <link rel="stylesheet" href="stle.css" />
+  
+  <title>Ristorante Con Fusion: About Us</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.png" height="50px" width="64px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item"><a class="active nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>
+              Home</a>
+          </li>
+          <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+          </li>
+          <li class="nav-item login" id="login" data-bs-toggle="modal" data-bs-target="#newmodal" ><a class="nav-link"
+              href="#newmodal"><span class="fa fa-login fa-lg"></span> Login</a></li>
+        </ul>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="modal" tabindex="-1" id="newmodal">
+    <div class="modal-dialog  modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" >
+          <input  type="text" placeholder="Email">
+          <input type="text" placeholder="Password">
+          <input class=" form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Remember me
+          </label>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Sign in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <header class="jumbotron">
+    <div class="container">
+      <div class="row row-header">
+        <div class="
+              col-12 col-sm-6
+              offset-0 offset-sm-1
+              justify-content-center
+              align-self-center
+            ">
+          <h1>Ristorante con Fusion</h1>
+          <p>
+            We take inspiration from the World's best cuisines, and create a
+            unique fusion experience. Our lipsmacking creations will tickle
+            your culinary senses!
+          </p>
+        </div>
+        <div class="col-12 col-sm justify-content-center align-self-center">
+          <div>
+            <img src="logo.png" height="100px " width="140px">
+
+            <button type="button" class="btn btn-primary bg-warning offset-2 text-black mode" data-bs-toggle="modal" data-bs-target="#exampleModal"  > Reserve Table </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reserve a table</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                <div class="col-sm-10">
+                  <div>
+                    <input class="radio-inline form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                      value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      1
+                    </label>
+
+                    <input class="radio-inline form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                      value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      2
+                    </label>
+
+                    <input class="radio-inline form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                      value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      3
+                    </label>
+
+                    <input class="radio-inline form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                      value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      4
+                    </label>
+
+
+
+                    <input class="radio-inline form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                      value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      5
+                    </label>
+
+
+                    <input class="radio-inline form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                      value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      6
+                    </label>
+
+
+
+                    <input class="radio-inline form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                      value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      7
+                    </label>
+
+
+
+
+                  </div>
+
+
+
+                </div>
+              </div>
+            </fieldset>
+
+
+            <div class="form-group row mt-1">
+              <label class=" col-sm-2 col-form-label ">Section</label>
+              <div class="col-10">
+                <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                  <button type="button" class="btn btn-warning bg-success text-white">Non-Smoking</button>
+                  <button type="button" class="btn btn-danger">Smoking</button>
+
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="form-group row mt-3">
+              <label class=" col-sm-2 col-form-label Date">Date & Time</label>
+              <div class="col-10 ">
+                <input type="text" placeholder="Date" />
+                <input type="text" placeholder="Time" />
+              </div>
+            </div>
+
+            </form>
+
+
+          </div>
+          <div class="modal-footer ">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary">Reserve</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <dl class="row ">
+        <dd class="col-10 offset-1 d-block d-sm-none align-self-center justify-content-center">
+          <h3>Our Lipsmacking </h3>
+          <h3>Culinary Creatons</h3>
+        </dd>
+      </dl>
+      <dl class="row">
+        <dd class="col-4 col-sm-2 offset-1">
+          <img class="align-self-center" src="uthappizza.png" alt="Uthappizza">
+        </dd>
+        <dd class="col-6 col-sm-6 px-4">
+          <h2>Uthappizza <span class="badge badge-warning bg-danger">HOT</span>
+            <span class="badge badge-pill badge-secondary bg-warning">$4.99</span>
+          </h2>
+
+          <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+            Italian pizza, topped with Cerignola olives, ripe vine
+            cherry tomatoes, Vidalia onion, Guntur chillies and
+            Buffalo Paneer.</p>
+        </dd>
+        <dd class="d-none d-sm-block col-2 align-self-center justify-content-center">
+          <h3>Our Lipsmacking Culinary Creatons</h3>
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-body">
+      <dl class="row ">
+        <dd class="col-10 offset-1 d-block d-sm-none align-self-center justify-content-center">
+          <h3>This Month's </h3>
+          <h3>Promotion</h3>
+        </dd>
+      </dl>
+      <dl class="row ">
+        <dd class="col-2 d-none d-sm-block  align-self-center justify-content-center offset-1">
+          <h3>This Month's Promotion</h3>
+        </dd>
+        <dd class="col-4 col-sm-6 offset-1 offset-sm-0 align-self-center">
+          <h2>Weekend Grand Bufflet <span class="badge badge-warning bg-danger">New</span>
+
+          </h2>
+
+          <p class="d-none d-sm-block">Featuring mouth waterng combination of Indian Uthappam (pancake) and
+            Italian pizza, topped with Cerignola olives, ripe vine
+            cherry tomatoes, Vidalia onion, Guntur chillies and
+            Buffalo Paneer.</p>
+        </dd>
+        <dd class="col-6 col-sm-2 align-self-center"><img src="buffet.png" alt="Uthappizza">
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+
+
+  <div class="card">
+    <div class="card-body">
+      <dl class="row ">
+        <dd class="col-10 offset-1 d-block d-sm-none align-self-center justify-content-center">
+          <h3>Meet Our Culinary </h3>
+          <h3>Specialists</h3>
+        </dd>
+      </dl>
+
+      <dl class="row ">
+
+
+        <dd class="col-4 col-sm-2 align-self-center offset-1">
+          <img src="alberto.png" alt="Alberto Somayya">
+        </dd>
+
+        <dd class="col-6 col-sm-6 align-self-center px-4">
+          <h2>Alberto Somayya
+
+          </h2>
+          <h4>
+            Executive Chef
+          </h4>
+
+          <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+            International experience having worked closely with
+            whos-who in the culinary world, he specializes in
+            creating mouthwatering Indo-Italian fusion experiences.</p>
+        </dd>
+        <dd class="col-2 d-none d-sm-block  align-self-center justify-content-center">
+          <h3>Meet Our Culinary Specialists</h3>
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="mt">
+    <div class="col-8 offset-2">
+      <div class="card">
+        <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+        <div class="card-body">
+
+
+          <dl class="row mt-4">
+            <dt class="col-12 d-block d-sm-none">No of guests</dt>
+            <dt class="col-3 offset-1 d-none d-sm-block">No of guests</dt>
+
+            <dd class="col-12 col-sm-8">
+
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <label class="form-check-label" for="flexRadioDefault1"> 1 &nbsp</label>
+
+
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <label class="form-check-label" for="flexRadioDefault1"> 2 &nbsp</label>
+
+
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <label class="form-check-label" for="flexRadioDefault1"> 3 &nbsp</label>
+
+
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <label class="form-check-label" for="flexRadioDefault1"> 4 &nbsp</label>
+
+
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <label class="form-check-label" for="flexRadioDefault1"> 5 &nbsp</label>
+
+
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <label class="form-check-label" for="flexRadioDefault1"> 6 &nbsp</label>
+
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <label class="form-check-label" for="flexRadioDefault1"> 7 &nbsp</label>
+
+            </dd>
+
+
+          </dl>
+          <dl class="row mt-4">
+            <dt class="col-12 d-block d-sm-none">Date And Time</dt>
+            <dt class="col-3 offset-1 d-none d-sm-block">Date And Time</dt>
+
+            <dd class="col-7 col-sm-5 col-md-3 mt-3 mt-sm-0">
+              <input type="text" placeholder="DATE" />
+            </dd>
+            <dd class="col-7 col-sm-5 col-md-3 ">
+              <input type="text" placeholder="Time" />
+            </dd>
+
+          </dl>
+          <div class="px-3 mb-2">
+            <button type="button" class="btn btn-primary offset-4 ">Reserve</button>
+          </div>
+
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer jumbotron mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 offset-0 offset-sm-1 col-sm-2">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-7 col-sm-5">
+          <h5>Our Address</h5>
+          <address>
+            121, Clear Water Bay Road<br />
+            Clear Water Bay, Kowloon<br />
+            HONG KONG<br />
+            Tel.: +852 1234 5678<br />
+            Fax: +852 8765 4321<br />
+            Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+          </address>
+        </div>
+        <div class="col-12 col-sm-4 align-self-center">
+          <div class="text-center">
+            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                class="fa fa-linkedin"></i></a>
+            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+          </div>
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <p>© Copyright 2018 Ristorante Con Fusion</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+ 
+  <script>
+
+
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+
+
+
+
+  </script>
+</body>
+
+</html>
